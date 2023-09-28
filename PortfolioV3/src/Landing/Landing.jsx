@@ -1,5 +1,7 @@
 import React from "react";
 import './Landing.css';
+import MyImage from '../assets/MyImage.jpeg'
+
 
 const Landing = () => {
   return (
@@ -126,8 +128,20 @@ const Landing = () => {
           <p>I</p>
         </div>
         </div>
-        <div className="arrow">
-          <ion-icon name="arrowdown"></ion-icon>
+      </div>
+
+      <div className="about">
+        
+        <div className="AboutContent">
+            <h3 id="hey">Hey, Welcome here !</h3>
+            <hr id="line"/>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, consectetur nisi. Repudiandae dolorum recusandae quam dolores velit tempora et accusamus commodi ad, atque suscipit quos quasi vero provident optio dolorem? <br />
+             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+               Incidunt pariatur ab saepe delectus?</p>
+        </div>
+        <div>
+           <img src={MyImage}/>
         </div>
       </div>
     </div>
