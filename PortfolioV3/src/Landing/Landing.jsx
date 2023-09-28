@@ -6,14 +6,15 @@ import MyImage from '../assets/MyImage.jpeg'
 const Landing = () => {
   return (
     <div className="page">
-      <div className="navbar">
-        <ul className="linkscontainer">
-          <p>HOME</p>
-          <p>ABOUT</p>
-          <p>REALIZATIONS</p>
-          <p>CONTACT</p>
-        </ul>
-      </div>
+     <div class="navbar">
+  <ul class="linkscontainer">
+    <li><a href="heading">HOME</a></li>
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#">REALIZATIONS</a></li>
+    <li><a href="#">CONTACT</a></li>
+  </ul>
+</div>
+
       <div className="hero">
         <div className="heading">
           <h1>Frontend developer</h1>
@@ -130,7 +131,7 @@ const Landing = () => {
         </div>
       </div>
 
-      <div className="about">
+      <div id="about" className="about">
         
         <div className="AboutContent">
             <h3 id="hey">Hey, Welcome here !</h3>
