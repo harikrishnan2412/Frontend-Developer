@@ -1,6 +1,8 @@
 import React from "react";
 import './Landing.css';
 import MyImage from '../assets/MyImage.jpeg'
+import AiSummarizer from '../assets/AiSummarizer.png'
+import MedAi from '../assets/MedAi.png'
 
 
 const Landing = () => {
@@ -28,11 +30,6 @@ const Landing = () => {
         </div>
       </div>
       <div class="heroillustrations">
-        <div className="bars">
-          <div className="bar"></div>
-          <div className="bar"></div>
-        </div>
-        
         <div className="round">
           <div className="text">
             <svg
@@ -143,6 +140,26 @@ const Landing = () => {
         </div>
         <div>
            <img src={MyImage}/>
+        </div>
+      </div>
+      <div className="realizations">
+        <div className="realheading">
+            <h2>Realizations</h2>
+            <hr />
+        </div>
+        <div className="Aisummarizer">
+            <img src={AiSummarizer} alt="Aisum" />
+            <div className="aboutaisum">
+                <h3>Ai Summarizer</h3>
+                <p></p>
+            </div>
+            
+
+
+        </div>
+        <div className="MedAi">
+            <img src={MedAi} alt="" />
+
         </div>
       </div>
     </div>
