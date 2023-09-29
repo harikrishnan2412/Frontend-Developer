@@ -168,7 +168,19 @@ const Landing = () => {
       </div>
 
       <div className="contact">
-        
+        <div className="wantme">
+            <h4>Want to have me in your team?</h4>
+        </div>
+        <div className="lets">
+            <button>Let's get started</button>
+
+        </div>
+        <div className="mail">
+            <a href="mailto:harikrishnanb24@gmail.com">harikrishnanb24@gmail.com</a>
+        </div>
+        <div className="copyright">
+        <p>© 2023 Harikrishnan, All Rights Reserved.</p>
+        </div>
       </div>
     </div>
   );

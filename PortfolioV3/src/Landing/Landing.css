@@ -126,7 +126,7 @@ body{
 .AboutContent
 {
     
-    margin-top: 400px;
+    margin-top: 300px;
     width: 650px;
     margin-left: 80px;
     color: #171717;
@@ -219,7 +219,7 @@ img
 .realizations
 {
   margin-left: 80px;
-  margin-top: 400px;
+  margin-top: 300px;
 }
 .realheading
 {
@@ -241,5 +241,26 @@ img
   border-top: .5px solid black;
   background: linear-gradient(to right, black, rgb(151, 151, 151), white);
   
+
+}
+
+.contact
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1100px;
+  background-color: #2c2c2c;
+  margin-left: 175px;
+  padding-top: 100px;
+}
+
+.wantme
+{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-color: aqua;
+  margin-right: 700px;
 
 }
