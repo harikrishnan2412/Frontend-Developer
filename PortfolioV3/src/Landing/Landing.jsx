@@ -144,23 +144,31 @@ const Landing = () => {
       </div>
       <div className="realizations">
         <div className="realheading">
-            <h2>Realizations</h2>
+            <h3>Realizations</h3>
             <hr />
         </div>
         <div className="Aisummarizer">
-            <img src={AiSummarizer} alt="Aisum" />
+            <img src={AiSummarizer} id="Aisumphoto" />
             <div className="aboutaisum">
                 <h3>Ai Summarizer</h3>
-                <p></p>
+                <p id="aisumabout">powerful tool designed to condense lengthy pieces of text or content into concise and coherent summaries. Leveraging cutting-edge natural language processing algorithms, it provides users with the ability to extract the most essential information from documents, articles, or any textual content, saving time and improving overall efficiency in information consumption. </p>
             </div>
             
 
 
         </div>
         <div className="MedAi">
-            <img src={MedAi} alt="" />
+            <img src={MedAi} id="medai" />
+            <div className="aboutmedai">
+                <h3>Med AI</h3>
+                <p id="medaiabout">Med AI is a cutting-edge telemedicine web application designed to revolutionize healthcare accessibility. Leveraging the power of artificial intelligence, it provides patients with convenient access to medical professionals from the comfort of their homes.</p>
+            </div>
 
         </div>
+      </div>
+
+      <div className="contact">
+        
       </div>
     </div>
   );
