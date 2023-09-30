@@ -306,27 +306,32 @@ body {
   color: #4c4c4c;
 }
 
+@media (max-width: 1200px) {
+  
+  .linkscontainer {
+    margin-left: 0;
+    width: 100%;
+    justify-content: center;
+  }
+}
 
 @media (max-width: 768px) {
-  .linkscontainer {
-      width: 100%; 
-      margin-left: 0;
-      justify-content: center; 
-    }
+  
+  .contact {
+    padding: 30px 10%;
   }
 
-
-
-@media (max-width: 480px) {
-  .heading {
-      font-size: 40px; 
+  .heroillustrations {
+    padding-right: 1rem;
   }
+
   
-  .subheading {
-      font-size: 18px; 
-      width: 90%; 
+  .wantme {
+    font-size: 24px;
   }
-  
-  
+
+  button {
+    max-width: 200px;
+  }
 }
 
