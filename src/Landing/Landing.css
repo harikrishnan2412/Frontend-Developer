@@ -324,9 +324,18 @@ body {
   }
 
   .heroillustrations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-right: 1rem;
   }
-
+  .hero
+  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
   
   .wantme {
     font-size: 24px;
