@@ -10,7 +10,7 @@ const Landing = () => {
     <div className="page">
      <div className="navbar">
   <ul className="linkscontainer">
-    <li><a href="heading">HOE</a></li>
+    <li><a href="heading">HOME</a></li>
     <li><a href="#about">ABOUT</a></li>
     <li><a href="#">REALIZATIONS</a></li>
     <li><a href="#">CONTACT</a></li>
