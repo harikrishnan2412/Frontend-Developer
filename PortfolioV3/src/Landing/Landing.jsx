@@ -8,8 +8,8 @@ import MedAi from '../assets/MedAi.png'
 const Landing = () => {
   return (
     <div className="page">
-     <div class="navbar">
-  <ul class="linkscontainer">
+     <div className="navbar">
+  <ul className="linkscontainer">
     <li><a href="heading">HOME</a></li>
     <li><a href="#about">ABOUT</a></li>
     <li><a href="#">REALIZATIONS</a></li>
