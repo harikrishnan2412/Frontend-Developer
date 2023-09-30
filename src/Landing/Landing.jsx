@@ -12,8 +12,8 @@ const Landing = () => {
   <ul className="linkscontainer">
     <li><a href="heading">HOME</a></li>
     <li><a href="#about">ABOUT</a></li>
-    <li><a href="#">REALIZATIONS</a></li>
-    <li><a href="#">CONTACT</a></li>
+    <li><a href="#rea">REALIZATIONS</a></li>
+    <li><a href="#con">CONTACT</a></li>
   </ul>
 </div>
 
@@ -142,7 +142,7 @@ const Landing = () => {
            <img src={MyImage}/>
         </div>
       </div>
-      <div className="realizations">
+      <div id="rea" className="realizations">
         <div className="realheading">
             <h3>Realizations</h3>
             <hr />
@@ -167,7 +167,7 @@ const Landing = () => {
         </div>
       </div>
 
-      <div className="contact">
+      <div id="con" className="contact">
         <div className="wantme">
             <h4>Want to have me in your team?</h4>
         </div>
